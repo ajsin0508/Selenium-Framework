@@ -1,0 +1,160 @@
+﻿Your credit agreement
+Fixed Sum Loan Agreement regulated by the
+Consumer Credit Act 1974
+Who is this agreement between?
+This is an agreement between us, Tesco Bank, Broadway One, 199 Renfield Street,
+Glasgow, G2 3AX and you:
+Mr John Doe
+EHQ
+EH12 9FQ
+This agreement sets out the terms and conditions for your
+loan.
+Terms and conditions for your loan
+Amount £<LOAN_AMOUNT> Interest rate <ANNUAL_INTEREST>% per annum
+(Nominal)
+Length of agreement <NUMBER_REPAYMENTS> months Number of repayments <MonthlyRepay>
+Monthly repayment £<MONTHLY_REPAYMENT> Repayment dates <REPAYMENT_DATE> of each month
+Total amount of interest
+due
+<TOTAL_INTEREST> APR <LOAN_APR>%%
+You agree to pay a total of: £<TOTAL_AMOUNT>
+This is the amount you have borrowed plus interest and other charges
+We will tell you the date of your first payment in writing once you have been
+accepted and the repayments will then be on the same date (or the next working day)
+in each following month. Depending on the date of the first payment, this may extend
+the length of the agreement by up to one month but will not change the amount of
+interest you pay or the number of repayments you make.
+At the beginning of the loan we work out the interest you will pay over the whole
+length of your loan and add this to your loan amount. We calculate your interest
+charge by applying interest at a monthly rate based on the APR to the balance of
+your loan, as reduced by your monthly repayments. We add this to the loan amount
+and then divide this total by the number of monthly repayments. If you fail to make
+payments, we will charge interest, until payment, after as well as before any court
+judgment in relation to the loan, as long as we have sent you the relevant notice
+where necessary.
+Page 1 of 4
+Want to change your monthly repayment date?
+No problem. You can change the date once a year during the lifetime of your loan,
+which may extend the length of agreement by up to one month. This won't aect the
+amount of interest you pay or the number of repayments you make.
+Are there any fees or charges I may have to pay?
+Fees and charges
+Charge Why? How?
+£12 Each time you miss a payment
+Each time we send you a default
+notice
+By Direct Debit, one month after
+we tell you about the charge
+Our reasonable costs If we have to take steps to make
+you repay your loan. For example,
+this could be the cost of finding
+you if you do not tell us your new
+address
+By Direct Debit, one month after
+we tell you about the charge
+Can I cancel the loan if I change my mind at the start
+Yes and you don't have to tell us why you'd like to cancel.
+We'll write to you when we have transferred the loan into your bank account. Your
+right to cancel starts the day after you receive this letter and ends 14 days after that.
+To cancel your loan without paying any interest you must:
+1. Tell us you want to cancel within the 14 day period. To do this, call
+0345 600 6016 or write to Tesco Bank, Loans Payment Team, Broadway One,
+199 Renfield Street, G2 3AX
+2. Repay the loan within 30 days of telling us you want to cancel. To do this,
+call 0345 600 6016 to pay by debit card, or send a cheque to Tesco Bank,
+Loans Payment Team, Broadway One, 199 Renfield Street, G2 3AX. Remember
+if you send a cheque you must allow at least 3 extra days for the money to
+reach us.
+If you cancel the loan within 14 days, but don't repay the loan in full within 30 days,
+we will add interest. This will be at a rate of £4.14 a day it's on top of the original loan
+amount you have to repay.
+Want to pay us back early after the initial 14 days? Please read section 'Can I repay my
+loan early?'
+How will you send the money? And when do I get my loan?
+We'll make a final decision on whether to lend to you when we receive this signed
+credit agreement.
+Page 2 of 4
+If we accept your application, we'll pay the loan to the bank account you chose. We'll
+tell you when this happens. If you have asked us to repay any of your existing loans
+with us, we will do this and pay the rest into your bank account.
+Can I repay my loan early?
+Yes. You can pay all of it or some of it at any time.
+Paying o your loan early
+Full payment Call us to find out how much you have to pay and
+make one payment by cheque or debit card within
+28 days.This will include an interest charge. When
+we work out how much you have to pay we will
+include any rebate we must give you.
+Part payment If you want to pay more than your monthly
+repayment, you must tell us. You can pay by debit
+card over the phone, or send us a cheque.
+If your account is in arrears we will use any
+extra money you pay to clear your arrears first.
+Otherwise, before you make a part payment we will
+ask you if you want to:
+• reduce your monthly payments (the term of
+your loan stays the same)
+• reduce the number of payments you have to
+make on your loan (the amount of your monthly
+payments stays the same).
+If you make a part payment without telling us we
+will call you to ask what you would like us to do
+with the money. If we cannot contact you we will
+treat your payment as notice that you want to make
+a part payment and use the amount you pay to
+reduce your monthly repayments,we will tell you
+your new repayments in writing.
+When will my loan end?
+You can close your loan account at any time, please see section 'Can I repay my loan
+early'.
+Otherwise, your loan will end when you have paid everything back.
+Can you ask me to repay the loan early?
+Yes. For example, this could happen if you are declared bankrupt, subject to an
+Individual Voluntary Arrangement, regularly miss your payments or seriously breach
+the loan agreement.
+We will send you a letter giving you the chance to catch up first. We'll also send any
+notices we have to by law. If necessary, we may take you to court to get you to pay.
+This could result in a court making an order against you which might result in:
+Page 3 of 4
+• The court ordering you to pay the debt out of your wages. A legal document is
+sent to your employerwhich forces them to take money from your wage to pay
+your outstanding debt to us.
+• If you live in England and Wales, we may seek a charging order from the court.
+If we get this order,you will have to pay any amount you owe us when you sell
+your home.
+• If you live in Scotland we may get a court order which prevents you from selling
+your house or securing any further debts against your home.
+• You may also have to pay our legal costs.
+General terms
+• You can get a free statement of your account (Amortisation Table) at any time.
+This will tell you how many repayments you still have to make, the due date
+and amount of each repayment, the amount of interest and capital in each
+repayment and any conditions relating to future repayments.
+• We may transfer our rights and duties under our agreement with you
+to another lender or company in the future (this is sometimes called
+an assignation). In order to facilitate such a transfer, we may share your
+information with such lenders or companies.
+• If your address is in Scotland, Scottish law applies to the contract between
+us and disputes between us will be referred to the Scottish courts. If your
+address is elsewhere, English law will apply and disputes will be referred to the
+English and Welsh courts.
+• We will communicate with you in English and you can ask for a copy of these
+terms and conditions at any time free of charge. Our telephone number is
+0345 600 6016 *.
+• Tesco Bank is a trading name of Tesco Personal Finance plc. Our address is
+Interpoint Building, 22 Haymarket Yards, Edinburgh EH12 5BH. Our consumer
+credit business is regulated by the Financial Conduct Authority, who can be
+contacted at the following address: 25 The North Colonnade, Canary Wharf,
+London, E14 5HS.
+• If you make a complaint, we'll aim to resolve it as quickly as we can. If you're
+still not happy, you can refer your complaint to the Financial Ombudsman
+Service (FOS). You can find out more about the FOS by writing to them at
+Exchange Tower, London E14 9SR or by telephoning on 0800 023 4567 . Details
+are also available from their website, http://www.financial-ombudsman.org.uk
+• Online Dispute Resolution - if you purchased your loan with us online you may
+be eligible to complain using the ODR service. Further information on ODR
+can be obtained at http://eceuropa.eu/odr or on the 'Make a complaint'
+section of the Tesco Bank website. Please note that using the ODR service will
+not mean your complaint is resolved more quickly than if you complain to us
+directly.
+Page 4 of 4

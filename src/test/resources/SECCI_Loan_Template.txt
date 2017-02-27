@@ -1,0 +1,130 @@
+﻿Pre-contract credit information(Standard European ConsumerCredit Information)
+1. Contact details
+Creditor. Tesco Personal Finance plc trading as Tesco Bank
+Address. Tesco Bank, PO Box 27028, Glasgow, G2 9FT
+Telephone number. 0345 300 4278
+Web Address. www.tescobank.com
+2. Key features of the credit product
+The type of credit. Fixed sum loan
+The total amount of credit.
+This means the amount of credit to be provided
+under the proposedcredit agreement or the credit
+limit
+<LOAN_AMOUNT>
+How and when credit would be provided. We will make a final decision on whether to lend to
+you when we receive your signed credit agreement
+and will pay the loan into your bank account if you
+are accepted. We will tell you when this happens.
+The duration of the credit agreement. <LOAN_TERM> months
+Repayments. <NUMBER_REPAYMENTS> monthly repayments of £<MONTHLY_REPAYMENT>
+The total amount you will have to pay.
+This means the amount you have borrowed plus
+interest and other costs.
+<TOTAL_AMOUNT>
+Page 1 of 4
+3. Costs of the credit
+The rates of interest which apply to the credit
+agreement.
+Fixed rate of <ANNUAL_INTEREST>% per annum (Nominal)
+Annual Percentage Rate of Charge (APR)
+This is the total cost expressed as an annual
+percentage of the total amount of credit. The APR is
+there to help you compare different offers.
+<LOAN_APR>%
+Related costs
+Any other costs deriving from the credit agreement. £50 for the courier service, if you choose to have
+the credit agreement sent to you by courier.
+Costs in the case of late payments. • £12 charge each time you miss a payment.
+• £12 charge each time we send you a default
+notice
+• Our reasonable costs if we have to take steps
+to make you repay your loan e.g. the cost
+of finding you if you do not tell us your new
+address.
+Consequences of missing payments. Please remember missing payments has serious
+consequences and could result in us asking you to
+repay your loan early, taking legal action against
+you and affect your ability to get credit (e.g. a
+credit card or a mortgage) in the future or make
+getting credit more expensive.
+If we take legal action we may seek to recover the
+money you owe us direct from your salary. If you
+live in England and Wales this could include us
+asking the court for a charging order over your
+home. If we have a charging order and your home
+is sold (through repossession or for any other
+reason), any amounts you owe us will be repaid
+from the sale proceeds.
+If you live in Scotland we may get a court order
+which prevents you from selling your house or
+securing further debts against your house.
+You may also have to pay our legal costs
+4. Other important legal aspects
+Page 2 of 4
+Right of withdrawal. We will confirm to you in writing that the credit
+agreement has been made when we have
+transferred the loan into your bank account. We
+will confirm that the agreement is in the same
+terms as the copy already given to you and inform
+you of your right to receive a copy. Your right to
+cancel starts the day after you receive this letter
+and ends 14 calendar days after that.
+To cancel your loan without paying any interest you
+must call us on 0345 600 6016 or write to us at
+Tesco Bank, Loan Payments Team, Broadway One,
+199 Renfield Street, Glasgow, G2 3AX
+Early repayment. You have the right to repay all or part of the credit
+early at any time
+Consultation with a Credit Reference Agency. If we reject your application because of
+information we receive from a credit reference
+agency about you, we will tell you as soon as
+possible and will give you their contact details so
+that you can get more information.
+Right to a draft credit agreement. You have the right to request a copy of the draft
+credit agreement free of charge, unless your
+application has been declined.
+The period of time during which the creditor is bound
+by the pre-contractual information.
+The information in this document is valid for 30
+days.
+5. Additional information in the case of distance marketing of financial
+services
+(a) concerning the creditor
+Registration number. Financial Services Register number 186022
+The supervisory authority. The Financial Conduct Authority
+(b) concerning the credit agreement
+The law taken by the creditor as a basis for the
+establishment of relations with you before the
+conclusion of the credit agreement.
+If your address is in Scotland, Scottish law applies.
+If you live elsewhere, English law applies.
+The law applicable to the credit agreement and/or
+the competent court.
+If your address is in Scotland, Scottish law
+will apply to your agreement and disputes will
+be referred to the Scottish courts. If you live
+Page 3 of 4
+elsewhere, English law will apply to your agreement
+and disputes will be referred to the English and
+Welsh courts.
+Language to be used in connection with the credit
+agreement.
+All communications that we send you (including the
+documents containing the terms of the agreement
+between you and us) will be in English.
+(c) concerning redress
+Access to out-of-court complaint and redress
+Mechanism.
+If you make a complaint, and are not satisfied
+with the final response we give under our
+internal complaints procedure, you can ask for
+the complaint to be referred to the Financial
+Ombudsman Service. You can find out more about
+the Financial Ombudsman Service by telephoning
+us on 0345 600 6016 . Alternatively, you can
+contact the Financial Ombudsman Service by
+writing to Exchange Tower, London E14 9SR or by
+telephoning on 08000 234 567 . Details are also
+available from their website, http://www.financialombudsman.
+org.uk
+Page 4 of 4

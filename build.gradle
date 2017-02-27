@@ -1,0 +1,129 @@
+apply from: rootProject.file("ide-support.gradle")
+
+description = 'judge'
+group = 'com.tescobank.digital.judge'
+version = '1.0.0'
+
+apply plugin: "jacoco"
+apply plugin: 'java'
+apply plugin: 'maven-publish'
+apply plugin: 'maven'
+
+jar {
+    manifest.attributes 'publisher': 'com.tescobank.digital', 'artifactId': description, 'version': version
+}
+
+dependencies {
+    compile([
+            'com.tescobank.digital.portalcucumber:tbcukesupport:1.2.10',
+            "com.oracle:ojdbc6:1.6",
+            'org.apache.pdfbox:pdfbox:2.0.1'
+    ])
+
+    testCompile([ 'org.springframework:spring-beans:4.0.6.RELEASE' ])
+}
+
+configurations {
+    cucumberRuntime {
+        extendsFrom testRuntime
+    }
+}
+
+repositories {
+    mavenLocal()
+    flatDir {
+        dirs 'libs'
+    }
+    maven {
+        if (System.properties.internalNexus) {
+            url "http://nexuselb02:8081/repository/maven-central/"
+        } else {
+            url "http://nexus3.cd.tbaws.com/repository/maven-central/"
+        }
+    }
+}
+
+tasks.withType(JavaCompile) {
+    sourceCompatibility = "1.8"
+    targetCompatibility = "1.8"
+
+    //This is need to get around the 'Cannot find javac resource bundle for locale en_US' isssue with
+    //maintenance-service
+    options.fork = true
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.3'
+}
+
+task acceptanceTests {
+    description = "Runs all of the acceptance tests"
+    group = "Verification"
+    dependsOn build
+    doLast {
+        javaexec {
+            main = "com.tescobank.tests.tbcukesupport.CustomCucumberRunner"
+            classpath = configurations.cucumberRuntime + sourceSets.test.output + sourceSets.main.output
+            args = constructCucumberArgs()
+            systemProperties = System.getProperties()
+        }
+    }
+}
+
+def constructCucumberArgs() {
+    def arguments = new ArrayList<String>()
+    arguments.addAll(['--plugin', 'html:build/cucumber-html-report',
+                      '--plugin', 'json:build/cucumber.json',
+                      '--plugin', 'pretty'])
+
+    if (or_tags() != "NULL") {
+        arguments.addAll(['--tags', or_tags()])
+    }
+    def i=0
+    while (and_tags(i) != "NULL") {
+        arguments.addAll(['--tags', and_tags(i)])
+        i++
+    }
+    i=0
+    while (skip(i) != "NULL") {
+        arguments.addAll(['--tags', skip(i)])
+        i++
+    }
+
+    arguments.addAll(['--glue', 'com.tescobank.judge',
+                      '--glue', 'com.tescobank.tests.tbcukesupport',
+                      'src/test/features' + scenarioName()])
+    return arguments
+}
+
+def or_tags() {
+    def result = ""
+    def allTags = hasProperty("or_tags")?"${or_tags}".split(","):null;
+    def i=0
+    while (allTags != null && allTags.length > i) {
+        result += ((i>0)?",":"") + "@" + allTags[i]
+        i++
+    }
+    return result != ""?result:"NULL";
+}
+
+def and_tags(int i) {
+    def allTags = hasProperty("and_tags")?"${and_tags}".split(","):null;
+    return (allTags != null && allTags.length > i)?"@" + allTags[i]:"NULL"
+}
+
+def skip(int i) {
+    def allTags = hasProperty("skip")?"${skip}".split(","):null;
+    return (allTags != null && allTags.length > i)?"~@" + allTags[i]:"NULL"
+}
+
+
+def scenarioName() {
+    if (project.hasProperty('scenarioName')) {
+        project.scenarioName
+    } else {
+        ""
+    }
+}
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="72" it="0" lt="72" ts="1479207209812" s="false" lb="BeInformed LOAN case creation HTTP Request" rc="400" rm="Bad Request" tn="Thread Group 1-1" dt="text" by="426" ng="1" na="1"/>
+<httpSample t="53" it="0" lt="53" ts="1479207209890" s="false" lb="BeInformed PCA case creation HTTP Request" rc="400" rm="Bad Request" tn="Thread Group 1-1" dt="text" by="426" ng="1" na="1"/>
+
+<httpSample t="672" it="0" lt="672" ts="1479207726454" s="false" lb="BeInformed LOAN case creation HTTP Request" rc="403" rm="Unauthorized" tn="Thread Group 1-1" dt="text" by="367" ng="1" na="1"/>
+<httpSample t="56" it="0" lt="55" ts="1479207727134" s="false" lb="BeInformed PCA case creation HTTP Request" rc="403" rm="Unauthorized" tn="Thread Group 1-1" dt="text" by="366" ng="1" na="1"/>
+
+<httpSample t="1190" it="0" lt="1190" ts="1479207955550" s="true" lb="BeInformed LOAN case creation HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1706" ng="1" na="1"/>
+<httpSample t="831" it="0" lt="831" ts="1479207956747" s="true" lb="BeInformed PCA case creation HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1379" ng="1" na="1"/>
+
+<httpSample t="968" it="0" lt="968" ts="1479208016824" s="true" lb="BeInformed LOAN case creation HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1721" ng="1" na="1"/>
+<httpSample t="605" it="0" lt="605" ts="1479208017798" s="true" lb="BeInformed PCA case creation HTTP Request" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1394" ng="1" na="1"/>
+
+</testResults>

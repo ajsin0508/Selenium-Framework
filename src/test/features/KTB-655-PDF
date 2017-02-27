@@ -1,0 +1,75 @@
+@KTB-655
+@Loan
+@LoanUnderstandingYourLoanPDF
+@LoanSECCIPDF
+@LoanFixedSumLoanAgreementPDF
+#Feature: Display PDF documents
+#AS Tesco Bank
+#I WANT to create pdf versions of the required loan documentation
+#SO THAT I can provide the customer with details of the agreement in a durable format
+#===
+
+#Scenario 1: Generate understanding your loan pdf
+#GIVEN the customer is eligible to sign their application digitally
+#OR the customer will be sent a paper form for signature
+#WHEN all of the necessary information has been collected from the customer
+#THEN the Understanding your loan pdf is generated 
+#AND the pdf includes the parameterised values noted below
+	#Total amount of credit: loan amount selected by customer on loan offer calculator £.pp (assume from £100.00 to £99,999.99)
+	#Total amount to pay: calculated amount from loan offer calculator £.pp (assume from £100.00 to £99,999.99)
+	#Repayments: monthly repayment amount from loan offer calculator £.pp (assume from £0.99 to £9,999.99)
+	#APR: APR from loan offer calculator to at least one decimal place, more if used (assume from 0.1% to 999.9999% and from 1 to 4 decimal places)
+	#Rate of interest: fixed rate from loan offer calculator to 4 decimal places (assume from 0.0001% to 999.9999%)
+#AND the name of the PDF should:
+#	match the convention for static PDF assets
+#	include the product e.g. "tescobank-loan" as a prefix
+#	include a document identifier e.g. "fixed-sum-loan-agreement"
+#	include the version number e.g. "-v1"
+#AND the pdf is retained for the customer to download later in the journey and for later storage
+
+#Scenario 2: Generate SECCI pdf
+#GIVEN the customer is eligible to sign their application digitally
+#WHEN all of the necessary information has been collected from the customer
+#THEN the SECCI pdf is generated 
+#AND the pdf includes the parameterised values noted below
+#match the convention for static PDF assets
+#	include the product e.g. "tescobank-loan" as a prefix
+#	include a document identifier e.g. " tescobank-loan"
+#	include the version number e.g. "-v1"
+#	have the .pdf suffix
+#AND the pdf is retained for the customer to download later in the journey and for later storage
+
+#Scenario 3: Generate fixed sum loan agreement pdf
+#GIVEN the customer is eligible to sign their application digitally
+#WHEN all of the necessary information has been collected from the customer
+#THEN the Fixed sum loan agreement pdf is generated 
+#AND the pdf includes the parameterised values noted below
+#The following items are parameterised in the fixed sum loan agreement
+#	Customer's title, forename & surname from [TCV]
+#	Customer's address from [TCV]
+#	Total amount of credit: loan amount selected by customer on loan offer calculator £.pp (values as per understanding your loan)
+#	Rate of interest: fixed rate from loan offer calculator to 4 decimal places (values as per understanding your loan)
+#	Duration of credit agreement: term of loan selected by customer on loan offer calculator in months (values as per SECCI)
+#	Number of repayments: equal to duration in months
+#	Repayments: monthly repayment amount from loan offer calculator £.pp (values as per understanding your loan)
+#	Repayment date: date selected by customer (1st to 28th)
+#	Total amount of interest due: total amount to be paid less selected loan amount (from loan offer calculator) £.pp (assume from £100.00 to £99,999.99)
+#	APR: APR from loan offer calculator to at least one decimal place, more if used (values as per understanding your loan)
+#	Total amount to pay: calculated amount from loan offer calculator £.pp (values as per understanding your loan)
+#AND the name of the PDF should:
+#	match the convention for static PDF assets
+#	include the product e.g. "tescobank-loan" as a prefix
+#	include a document identifier e.g. "fixed-sum-loan-agreement"
+#	include the version number e.g. "-v1"
+#AND the pdf is retained for the customer to download later in the journey and for later storage
+
+
+#Note 7:
+#	The copy will be based on the existing loans journey
+#	Legal will need to OK the final copy and format used
+#Note 8:
+#See http://nexus.tbdevops.com/content/repositories/Digital-Releases/com/tescobank/sal/dist/sal-dist-cms/2.0.0/sal-dist-cms-2.0.0.zip for template
+#Note 9:
+#Customers are not able to resume an incomplete offer application
+
+
